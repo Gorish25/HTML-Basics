@@ -1,0 +1,13 @@
+Q.1 Difference between id attribute and class attribute?
+Ans. Multiple elements in HTML can have the same class value, whereas a value of id 
+     attribute must be unique.
+
+Q.2 How to create a nested webpage in HTML?
+Ans.2 The HTML iframe tag is used to display a nested webpage.
+      In simple, it represent a webpage within a webpage.
+
+Q.3 Which type of video formats are supported by HTML5?
+Ans. mp4, WebM, Ogg.
+
+Q.4 How to insert a copyright symbol on a browser page?
+Ans.4 We can insert a copyright symbol by using &copy or &#169 in an HTML File.

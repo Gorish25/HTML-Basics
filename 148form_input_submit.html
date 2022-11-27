@@ -1,0 +1,41 @@
+<!-- action attribute have the value where the form input data will store -->
+
+<!-- targe attriute specify that page open in another tab
+target attribute have these values
+_blank
+_self'
+_parent
+_top
+_framename
+-->
+
+<!-- method attribute specify the http method while submitting the form 
+HTTP have two values 1. get    2. post
+by default is get
+-->
+
+<!-- autocomplete specifies the input to user if on-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <form action="" target="" method="" autocomplete=""> <!--action must have the page name where data will store-->
+        <label for="fname">First Name:</label><br>
+        <input type="text" name="fname" id="fname" value="John"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname" id="lname" value="Doe"><br>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page which you specify in the form tag."</p>
+</body>
+</html>

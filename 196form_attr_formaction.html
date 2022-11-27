@@ -1,0 +1,22 @@
+<!-- The input formaction attribute specifies the URL of the file that will process the input when the form is submitted. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>The input formaction attribute</h2>
+    <p>The formaction attribute specifies the URL of a file that will process the input when the form is submitted.</p>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" value="Submit As Admin" formcation="/action2.php">
+    </form>
+</body>
+</html>
