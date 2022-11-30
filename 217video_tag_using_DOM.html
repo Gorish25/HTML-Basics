@@ -1,0 +1,52 @@
+<!-- The HTML DOM defines methods, properties, and events for the <video> element.
+
+This allows you to load, play, and pause videos, as well as setting duration and volume.
+
+There are also DOM events that can notify you when a video begins to play, is paused, etc. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align:center;">
+        <button type="button" onclick="playpause()">Play/Pause</button>
+        <button type="button" onclick="makebig()">Big</button>
+        <button type="button" onclick="makesmall()">Small</button>
+        <button type="button" onclick="makeNormal()">Normal</button>
+        <br><br>
+        <video id="video" width="420"> 
+            <source src="216 video.mp4" type="video/mp4">
+            <!-- <source src=""> -->
+            Your browser does not support video tag.
+        </video>
+
+    </div>
+    <script type="text/javascript">
+        var myVideo=document.getElementById("video");
+        
+        function playpause(){
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+
+        function makebig(){
+            myVideo.width=560;
+        }
+
+        function makesmall(){
+            myVideo.width=320;
+        }
+
+        function makeNormal(){
+            myVideo.width=420;
+        }
+    </script>
+</body>
+</html>
